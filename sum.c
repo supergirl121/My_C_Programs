@@ -9,6 +9,9 @@
         scanf("%d", &b);
 
         int sum = a + b;
-        printf("sum is %d", sum);
+        printf("sum is %d\n", sum);
+
+        //or we can also do this
+        printf("sum is %d",  a + b);
         return 0;
     }
